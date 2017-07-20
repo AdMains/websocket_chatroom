@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0a585b77d203007adbc977994d114318",
+    "content-hash": "6017c22f18892d9e230851cb7565be77",
+    "packages": [
+        {
+            "name": "zphp/zphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shenzhe/zphp.git",
+                "reference": "8edc97fb95752b97dd0fe400e2dd977874bf7429"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shenzhe/zphp/zipball/8edc97fb95752b97dd0fe400e2dd977874bf7429",
+                "reference": "8edc97fb95752b97dd0fe400e2dd977874bf7429",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-0": {
+                    "ZPHP\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shenzhe",
+                    "email": "shenzhe163@gmail.com"
+                },
+                {
+                    "name": "cooper",
+                    "email": "myxiaoao@gmail.com"
+                }
+            ],
+            "description": "ZPHP is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
+            "homepage": "https://github.com/shenzhe/zphp",
+            "keywords": [
+                "Socket",
+                "Thread",
+                "framework",
+                "multi",
+                "progress",
+                "server"
+            ],
+            "time": "2017-07-06 13:10:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zphp/zphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

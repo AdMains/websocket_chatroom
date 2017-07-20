@@ -1,0 +1,53 @@
+[
+    {
+        "name": "zphp/zphp",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shenzhe/zphp.git",
+            "reference": "8edc97fb95752b97dd0fe400e2dd977874bf7429"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shenzhe/zphp/zipball/8edc97fb95752b97dd0fe400e2dd977874bf7429",
+            "reference": "8edc97fb95752b97dd0fe400e2dd977874bf7429",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.7"
+        },
+        "time": "2017-07-06 13:10:09",
+        "type": "framework",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "ZPHP\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "shenzhe",
+                "email": "shenzhe163@gmail.com"
+            },
+            {
+                "name": "cooper",
+                "email": "myxiaoao@gmail.com"
+            }
+        ],
+        "description": "ZPHP is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
+        "homepage": "https://github.com/shenzhe/zphp",
+        "keywords": [
+            "Socket",
+            "Thread",
+            "framework",
+            "multi",
+            "progress",
+            "server"
+        ]
+    }
+]
