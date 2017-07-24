@@ -227,7 +227,7 @@ enterChannel = function(e){
 function parseChannel() {
 
     var ds = '';
-    var chtml = '<tr><th scope="row">superAdmin</th><td><span>ALL</span><input type="hidden" value=""></td><td><button class="btn btn-primary btn-xs active" type="button" onclick="enterChannel(this)">进入</button></td><td><button class="btn btn-default btn-xs disabled" type="button">删除</button></td></tr>';
+    var chtml = '<tr><th scope="row">superAdmin</th><td><span>ALL</span><input type="hidden" value="0"></td><td><button class="btn btn-primary btn-xs active" type="button" onclick="enterChannel(this)">进入</button></td><td><button class="btn btn-default btn-xs disabled" type="button">删除</button></td></tr>';
     for(var key in channelList){
         if(key == uid){
             ds = '<button class="btn btn-primary btn-xs" type="button" onclick="delChannel(this)">删除</button>';
